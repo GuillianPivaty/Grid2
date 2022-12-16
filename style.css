@@ -1,0 +1,41 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.Dark {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.Luke {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    border: solid 1px royalblue;
+    background-color: royalblue;
+    color: black;
+    text-align: center;
+}
+
+.Leia {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    border: solid 1px #435;
+    background-color: #435;
+    text-align: center;
+}
+
+.Obiwan {
+    grid-column: 2;
+    grid-row: 2 / 2;
+    border: solid 1px blueviolet;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
